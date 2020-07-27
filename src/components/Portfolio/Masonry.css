@@ -1,0 +1,72 @@
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if autoprefixing */
+    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
+   
+  /* Style your items */
+  .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+    background: grey;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+  }
+  .my-masonry-grid_column img {
+    width: 100%;
+    height: auto;
+    transition: .6s ease all;
+
+}
+.my-masonry-grid_column img:hover {
+    width: 100%;
+    height: auto;
+    transform: scale(1.11);
+    transition: .3s ease all;
+}
+.overLayer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0f0f0f;
+    opacity: .6;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    transition: .6s ease all;
+}
+.overLayer:hover{
+  opacity: 1;
+  transition: .3s ease all;
+}
+a .overLayer h4, a .overLayer p{
+    /* opacity: 0; */
+    transition: .6s ease all;
+    color: #fff;
+    letter-spacing: 2px;
+}
+/* .overLayer:hover.overLayer h4, .overLayer:hover.overLayer p{
+    opacity: 1;
+    transition: .3s ease all;
+}
+.overLayer:hover{
+    background-color: #0f0f0f;
+    opacity: 1;
+    transition: .3s ease all;
+} */
+@media only screen and (max-width: 900px) {
+  .my-masonry-grid {
+    display: flex;
+    margin-left: -30px;
+    width: auto;
+    margin-top: 10vh;
+}
+}

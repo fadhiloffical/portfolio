@@ -1,0 +1,33 @@
+/*  */
+@font-face {
+  font-family: 'BlenderPro-Medium';
+  src: local('BlenderPro-Medium'), url(../../assets/fonts/BlenderPro-Medium.woff) format('woff');
+}
+@font-face {
+  font-family: 'BlenderPro-Regular';
+  src: local('BlenderPro-Regular'), url(../../assets/fonts/BlenderPro-Book.woff) format('woff');
+}
+.portfolioWrapper{
+  text-align: left;
+  padding: 12.5vh 0;
+}
+.portfolioWrapper h1{
+  font-size: calc(20px + 2vmin);
+  font-family: 'BlenderPro-Medium';
+  writing-mode: vertical-rl;
+  /* text-orientation: upright; */
+  position: absolute;
+    right: 0;
+    top: 40%;
+    color: #84477f;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 900px) {
+  .portfolioWrapper h1{
+    writing-mode: horizontal-tb;
+    position: absolute;
+    left: 6%;
+    top: 15%;
+  }
+}

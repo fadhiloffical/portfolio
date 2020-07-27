@@ -1,0 +1,38 @@
+/*  */
+@font-face {
+  font-family: 'BlenderPro-Medium';
+  src: local('BlenderPro-Medium'), url(../../assets/fonts/BlenderPro-Medium.woff) format('woff');
+}
+@font-face {
+  font-family: 'BlenderPro-Regular';
+  src: local('BlenderPro-Regular'), url(../../assets/fonts/BlenderPro-Book.woff) format('woff');
+}
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000;
+  }
+.mainPageContainer{
+  font-family: 'BlenderPro-Regular';
+  font-size: calc(8px + 2vmin);
+  background-color: #000;
+  color:#fff;
+}
+.mainPageContainer h1{
+  font-family: 'BlenderPro-Medium';
+  color: #964e8d;
+}
+.mainPageContainer li,.mainPageContainer li a {
+  list-style: none;
+  color: #fff;
+  font-size: 1.25rem;
+}
+@media only screen and (max-width: 900px) {
+  .mainPageContainer h1{
+    font-size: 1.4rem;
+  }
+}
