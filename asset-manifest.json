@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/fadhil/static/css/main.78faa78a.chunk.css",
+    "main.js": "/fadhil/static/js/main.d87f8903.chunk.js",
+    "main.js.map": "/fadhil/static/js/main.d87f8903.chunk.js.map",
+    "runtime-main.js": "/fadhil/static/js/runtime-main.dd4c32ea.js",
+    "runtime-main.js.map": "/fadhil/static/js/runtime-main.dd4c32ea.js.map",
+    "static/css/2.74189dbb.chunk.css": "/fadhil/static/css/2.74189dbb.chunk.css",
+    "static/js/2.f756fe22.chunk.js": "/fadhil/static/js/2.f756fe22.chunk.js",
+    "static/js/2.f756fe22.chunk.js.map": "/fadhil/static/js/2.f756fe22.chunk.js.map",
+    "index.html": "/fadhil/index.html",
+    "precache-manifest.872238e59acd5024d0f33877dfa62f71.js": "/fadhil/precache-manifest.872238e59acd5024d0f33877dfa62f71.js",
+    "service-worker.js": "/fadhil/service-worker.js",
+    "static/css/2.74189dbb.chunk.css.map": "/fadhil/static/css/2.74189dbb.chunk.css.map",
+    "static/css/main.78faa78a.chunk.css.map": "/fadhil/static/css/main.78faa78a.chunk.css.map",
+    "static/js/2.f756fe22.chunk.js.LICENSE.txt": "/fadhil/static/js/2.f756fe22.chunk.js.LICENSE.txt",
+    "static/media/Error.css": "/fadhil/static/media/BlenderPro-Medium.f225752e.woff",
+    "static/media/abstract.png": "/fadhil/static/media/abstract.1fb2e25b.png",
+    "static/media/amad.jpg": "/fadhil/static/media/amad.f16f3070.jpg",
+    "static/media/fingmygpartner.jpg": "/fadhil/static/media/fingmygpartner.2916bf13.jpg",
+    "static/media/nimfra.jpg": "/fadhil/static/media/nimfra.69c37adb.jpg",
+    "static/media/portfolio.jpg": "/fadhil/static/media/portfolio.fe059d6c.jpg",
+    "static/media/timehut.jpg": "/fadhil/static/media/timehut.55455467.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd4c32ea.js",
+    "static/css/2.74189dbb.chunk.css",
+    "static/js/2.f756fe22.chunk.js",
+    "static/css/main.78faa78a.chunk.css",
+    "static/js/main.d87f8903.chunk.js"
+  ]
+}
